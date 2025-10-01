@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David A. Chentes - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 15px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .contact-info {
+            font-size: 10pt;
+            margin-bottom: 5px;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-bottom: 10px;
+            padding-bottom: 2px;
+        }
+        
+        .subsection {
+            margin-bottom: 15px;
+        }
+        
+        .subsection-title {
+            font-weight: bold;
+            font-size: 11pt;
+            margin-bottom: 3px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+        }
+        
+        .job-location-date {
+            font-style: italic;
+            text-align: right;
+            font-size: 10pt;
+        }
+        
+        .company-name {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        
+        .degree {
+            font-weight: bold;
+        }
+        
+        .institution {
+            margin-bottom: 3px;
+        }
+        
+        .description {
+            margin-bottom: 8px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 8px;
+        }
+        
+        li {
+            margin-bottom: 3px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .skills-category {
+            margin-bottom: 8px;
+        }
+        
+        .skills-category-title {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        @media print {
+            body {
+                padding: 10mm;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="name">David A. Chentes</div>
+        <div class="contact-info">
+            +53 54214040 | davidalejandrochentes@gmail.com | davidalejandrochentes.github.io
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="subsection">
+            <div class="education-header">
+                <div>
+                    <div class="subsection-title">Hermanos Saiz Montes de Oca University</div>
+                    <div class="degree">Telecommunications and Electronics Engineering</div>
+                </div>
+                <div class="job-location-date">Cuba<br>2018-2024</div>
+            </div>
+            <div class="description">Specialization in communication systems, signal processing, and software development for telecommunications.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Experience</div>
+        
+        <div class="subsection">
+            <div class="company-name">Freelance Software Developer</div>
+            <div class="job-header">
+                <div class="job-title">Software and Web Page Developer</div>
+                <div class="job-location-date">Remote<br>Jun 2024 - Present</div>
+            </div>
+            <ul>
+                <li>Designed and developed custom digital solutions, resulting in an average 20% improvement in clients' operational efficiency.</li>
+                <li>Provided technical leadership in over 5 end-to-end projects, managing the entire lifecycle from requirements analysis to deployment.</li>
+                <li>Built and coordinated teams of up to 3 developers for complex projects, improving delivery times by 15%.</li>
+                <li>Implemented scalable and maintainable architectures, reducing technical debt and facilitating future updates by 30%.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <div class="company-name">GoDjango LLC</div>
+            <div class="job-header">
+                <div class="job-title">Web App Developer</div>
+                <div class="job-location-date">Remote<br>Nov 2022 - Apr 2024</div>
+            </div>
+            <ul>
+                <li>Developed comprehensive web platforms that improved load speed by 40% and increased user retention by 25%.</li>
+                <li>Implemented over 10 robust RESTful APIs for successful integration with payment systems, CRMs, and third-party services.</li>
+                <li>Designed 100% responsive interfaces, achieving a consistent user experience across more than 50 device and browser combinations.</li>
+                <li>Coordinated agile development cycles (Scrum) in teams of 5, managing bi-weekly sprint deliveries with international clients.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <div class="company-name">Innovaplast del Ecuador</div>
+            <div class="job-header">
+                <div class="job-title">Software Engineer</div>
+                <div class="job-location-date">Remote<br>Jan 2022 - Sep 2022</div>
+            </div>
+            <ul>
+                <li>Created a comprehensive ecosystem to manage an inventory of +10,000 products, a fleet of 50 vehicles, and preventive maintenance for 100+ pieces of equipment.</li>
+                <li>Automated critical operational processes, achieving a 90% reduction in data entry errors and a 40% decrease in management time.</li>
+                <li>Developed analytical dashboards with +20 KPIs for managerial decision-making, providing real-time data visibility.</li>
+                <li>Optimized database queries and structures (PostgreSQL), resulting in a 60% improvement in system response times.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <div class="company-name">Technological University of Havana "José Antonio Echeverría" (CUJAE)</div>
+            <div class="job-header">
+                <div class="job-title">Software Developer - Remote Data Acquisition Systems</div>
+                <div class="job-location-date">Havana, Cuba<br>Mar 2019 - Nov 2021</div>
+            </div>
+            <ul>
+                <li>Designed software for the management and monitoring of +100 data acquisition sensors, efficiently processing real-time data streams.</li>
+                <li>Hardware-software integration that increased data transmission reliability by 99.5% in demanding research environments.</li>
+                <li>Contributed to 3 R&D projects, resulting in 2 scientific publications in the area of telecommunications and signal processing.</li>
+                <li>Collaborated in a multidisciplinary team of 8 engineers, which allowed for a 30% reduction in the prototype development cycle.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Achievements and Activities</div>
+        <div class="subsection">
+            <div class="company-name">Academic and Professional Activities</div>
+            <div class="job-header">
+                <div class="job-title">Research and Scientific Dissemination</div>
+                <div class="job-location-date">2025</div>
+            </div>
+            <ul>
+                <li>Publication of a scientific article in an indexed journal: "Revista Telemática CUJAE"</li>
+                <li>Speaker at the International Scientific Convention of Engineering and Architecture, Havana (28/11/2024)</li>
+                <li>Official member of the Ubuntu and Python communities, actively contributing to free software</li>
+                <li>Participation in open-source projects and collaborative development</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Skills and Interests</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Programming Languages:</div>
+                    <div>Python, Go, Rust, Solidity, HTML5, CSS3</div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Backend Frameworks:</div>
+                    <div>Django, FastAPI, Django REST Framework, Gin (Go), Actix Web (Rust)</div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Frontend Frameworks:</div>
+                    <div>Bootstrap, Reflex, Streamlit</div>
+                </div>
+            </div>
+            <div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Databases:</div>
+                    <div>PostgreSQL, MySQL, MongoDB, Redis</div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Tools and Technologies:</div>
+                    <div>Docker, Git/GitHub, VS Code, GraphQL, MCP, WordPress, Ubuntu Linux</div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Soft Skills:</div>
+                    <div>Teamwork, leadership, effective communication, project management, decision-making</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-category" style="margin-top: 15px;">
+            <div class="skills-category-title">Professional Interests:</div>
+            <div>Enterprise software development, scalable architectures, artificial intelligence, blockchain, contribution to free software, research and development in telecommunications.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">References</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Dr. C. Fidel Ernesto Hernández Montero</div>
+                    <div>CUJAE - Technological University of Havana</div>
+                    <div>fhernandez@tele.cujae.edu.cu</div>
+                </div>
+            </div>
+            <div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Ing. Jorge Luis Blanco Ramos</div>
+                    <div>Innovaplast del Ecuador</div>
+                    <div>jorgeluisblanco1970@gmail.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
